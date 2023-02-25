@@ -1,0 +1,33 @@
+#contenedor-loading {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#error {
+    color: red;
+    width: 200px;
+}
+
+#contenedor-titulo {
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contenedor-titulo h4 {
+    color: white;
+}
+
+#contenedor-titulo>h4 {
+    text-transform: capitalize;
+}
+
+#contenedor-comics {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
